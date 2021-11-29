@@ -1,0 +1,15 @@
+Package: datatoolboxexos2021
+Title: Code pour les Exos de la Formation Datatoolbox
+Version: 0.0.0.9000
+Authors@R: 
+    person("Mathieu", "Pélissié", , "mathieu.pelissie@ens-lyon.fr", role = c("aut", "cre"))
+Description: Ce compendium présente l'ensemble des scripts produits lors de la formation datatoolbox du Cesab en 2021
+License: MIT + file LICENSE
+ByteCompile: true
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    here,
+    readr
