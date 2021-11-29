@@ -7,7 +7,6 @@
 #'
 ################################################
 
-source(here::here("R","data_wildfinder.R"))
 # load sp-eco data
 
 dat <- data_sp_eco()
