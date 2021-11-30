@@ -1,10 +1,10 @@
 ###############################################
-#'29/11/2021, mathieu.pelissie@ens-lyon.fr
-#'
-#'exo_dplyr.R
-#'
-#'script pour l'exo dplyr
-#'
+#29/11/2021, mathieu.pelissie@ens-lyon.fr
+#
+#exo_dplyr.R
+#
+#script pour l'exo dplyr
+#
 ################################################
 
 # load sp-eco data
