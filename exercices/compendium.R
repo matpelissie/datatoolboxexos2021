@@ -1,18 +1,25 @@
+###############################################
+# 29/11/2021, mathieu.pelissie@ens-lyon.fr
+#
+# compendium_fct.R
+#
+# main functions to create package-like compendium
+#
+################################################
+
 rrtools::use_compendium("../datatoolboxexos2021/", open=FALSE)
-dir.create("R")
 
-library(usethis)
-usethis::use_r("data_wildfinder")
-usethis::use_package("here")
+usethis::use_r("data_wildfinder") # create R paired files
+dir.create("R") # create R directory at root as removed by use_r
 
-rrtools::use_readme_rmd()
+usethis::use_package("here") # add package/dependency as imports in DESCRIPTION
 
-devtools::install_deps()
-devtools::document()
+rrtools::use_readme_rmd() # creates README files with default frontmatter to fill in
+
+devtools::install_deps() # install all dependencies in imports in the DESCRIPTION
+
+devtools::document() # fill in package NAMESPACE
 
 devtools::load_all() # charger tous les fichiers et fonctions dans /R
-source("R/data_wildfinder.R") # exécuter tout le code du/des fichiers
+source("R/data_wildfinder.R") # exécuter tout le code du script
 
-
-dir.create("exercices")
-dir.create("outputs")
