@@ -13,3 +13,5 @@ RoxygenNote: 7.1.2
 Imports: 
     here,
     readr
+URL: https://github.com/matpelissie/datatoolboxexos2021
+BugReports: https://github.com/matpelissie/datatoolboxexos2021/issues
