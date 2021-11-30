@@ -7,5 +7,5 @@
 #
 #################################
 
-usethis::create_github_token()
-usethis::use_github()
+usethis::create_github_token() # create token
+usethis::use_github() # run once
