@@ -1,0 +1,25 @@
+---
+title: "Palmer Penguins"
+author: "Mathieu Pélissié"
+date: "30/11/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Penguins
+
+__Penguins are cool!__
+
+```{r eval=FALSE}
+library(palmerpenguins)
+```
+
+```{r}
+# penguins %>%
+#   head(10) %>%
+#   knitr::kable(format = "html", caption = "A kable table")
+knitr::kable(head(penguins,10),format = "html", caption = "A kable table")
+```
